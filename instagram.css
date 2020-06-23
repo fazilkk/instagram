@@ -1,0 +1,84 @@
+@import "reset";
+body {
+    background: #fff;
+}
+
+header {
+    background: #fafafa;
+    border-bottom: 1px solid #ccc;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 20;
+}
+
+header a {
+    box-sizing: border-box;
+    width: 25%;
+    display: inline-block;
+    margin-left: -3px;
+    text-align: center;
+    padding: 17px;
+}
+
+a:hover.fa-heart-o {
+    color: red;
+}
+
+a.fa {
+    color: 111;
+    font-size: 25px;
+}
+
+.container {
+    background: #fafafa;
+    padding-top: 50px;
+    position: absolute;
+    width: 100%;
+    top: 50px;
+    bottom: 0;
+}
+
+.card {
+    background: #fff;
+    margin: 0 auto;
+    width: 500px;
+    height: 500px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+}
+
+.commant p {
+    font-size: 14px;
+    margin: 0;
+    padding: 0 0 5px 0;
+}
+
+.username {
+    font-family: "open sans", sans-serif;
+    font-weight: 700;
+}
+
+form {
+    padding-top: 15px;
+}
+
+form.fa {
+    font-size: 24px;
+}
+
+form.heart {
+    display: inline-block;
+    width: 7%;
+}
+
+form.heart.fa {
+    position: relative;
+    top: 3px;
+}
+
+form.add-comment {
+    display: inline-block;
+    width: 70%;
+}
